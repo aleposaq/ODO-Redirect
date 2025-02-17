@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You!</title>
+  <!-- Load Roboto from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* General styles for the page using Roboto */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #232F3E; /* AWS dark blue */
+      color: white; /* White text for contrast */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+      text-align: center;
+    }
+    
+    /* Container for the content */
+    .container {
+      background-color: #FF9900; /* AWS orange */
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 500px;
+    }
+    
+    /* Heading style */
+    h1 {
+      font-size: 2.5rem;
+      color: #232F3E;
+      margin-bottom: 20px;
+    }
+    
+    /* Paragraph styling */
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    
+    /* Responsive design for small screens */
+    @media (max-width: 600px) {
+      .container {
+        width: 90%;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Thank you!</h1>
+    <p>Your check-in has been recorded successfully.</p>
+    <p>You may now safely close this page and return to Slack.</p>
+  </div>
+</body>
+</html>
